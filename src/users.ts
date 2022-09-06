@@ -1,3 +1,4 @@
+import { DateTime } from "luxon"
 
 export type Administrator = {
     id: number
@@ -13,7 +14,7 @@ export type Client = {
     firstName: string
     lastName?: string
     email: string
-    lastAccessedAt?: Date
+    lastAccessedAt?: DateTime
     accessesInLast7Days?: number
     totalAccesses?: number
 }

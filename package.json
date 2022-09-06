@@ -20,6 +20,9 @@
         "url": "https://github.com/mycoolfin/bca-data-types/issues"
     },
     "homepage": "https://github.com/mycoolfin/bca-data-types#readme",
+    "dependencies": {
+        "@types/luxon": "^3.0.0"
+    },
     "devDependencies": {
       "typescript": "^4.8.2"
     }

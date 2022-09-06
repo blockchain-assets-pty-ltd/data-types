@@ -1,15 +1,16 @@
+import { DateTime } from "luxon"
 
 export type AssetBalance = {
     assetName: string
     sourceId: string
     balance: number
-    lastUpdatedAt: Date
+    lastUpdatedAt: DateTime
 }
 
 export type AssetPrice = {
     assetName: string
     price: string
-    lastUpdatedAt: string
+    lastUpdatedAt: DateTime
 }
 
 export type AssetSettings = {

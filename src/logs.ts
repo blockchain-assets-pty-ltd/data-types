@@ -1,11 +1,12 @@
+import { DateTime } from "luxon"
 
 export type InvestorPortalAccessLogEntry = {
-    date: Date
+    date: DateTime
     clientId: number
 }
 
 export type ModificationLogEntry = {
-    date: Date
+    date: DateTime
     adminId?: number
     clientId?: number
     botId?: number

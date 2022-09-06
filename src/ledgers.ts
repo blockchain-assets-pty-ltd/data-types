@@ -1,6 +1,7 @@
+import { DateTime } from "luxon"
 
 export type UnitHoldersRegisterEntry = {
-    date: Date
+    date: DateTime
     vintage: number
     accountId: number
     unitsAcquiredOrRedeemed: number
@@ -8,7 +9,7 @@ export type UnitHoldersRegisterEntry = {
 }
 
 export type FeeCapitalisationsEntry = {
-    date: Date
+    date: DateTime
     vintage: number
     valueAtCapitalisationDate: number
     managementFee: number
@@ -17,7 +18,7 @@ export type FeeCapitalisationsEntry = {
 }
 
 export type TaxAllocationsEntry = {
-    date: Date
+    date: DateTime
     accountId: number
     discountCapitalGains: number
     nonDiscountCapitalGains: number
@@ -27,7 +28,7 @@ export type TaxAllocationsEntry = {
 }
 
 export type FundMetricsEntry = {
-    date: Date
+    date: DateTime
     unitPrice: number
     aum: number
 }

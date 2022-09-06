@@ -7,9 +7,9 @@ export type InvestorPortalAccessLogEntry = {
 
 export type ModificationLogEntry = {
     date: DateTime
-    adminId?: number
-    clientId?: number
-    botId?: number
+    adminId: number | null
+    clientId: number | null
+    botId: number | null
     data: string
     signature: string
 }

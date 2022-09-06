@@ -16,16 +16,16 @@ export type AssetPrice = {
 export type AssetSettings = {
     assetName: string
     assetSymbol: string
-    manualBalance?: number
-    manualPrice?: number
+    manualBalance: number | null
+    manualPrice: number | null
 }
 
 export type AssetSource = {
     id: number
     name: string
     type: string
-    description?: string
+    description: string | null
     readBalances: boolean
-    address?: string
-    network?: string
+    address: string | null
+    network: string | null
 }

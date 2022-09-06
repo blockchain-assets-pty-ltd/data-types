@@ -12,11 +12,11 @@ export type Administrator = {
 export type Client = {
     id: number
     firstName: string
-    lastName?: string
+    lastName: string | null
     email: string
-    lastAccessedAt?: DateTime
-    accessesInLast7Days?: number
-    totalAccesses?: number
+    lastAccessedAt: DateTime | null
+    accessesInLast7Days: number | null
+    totalAccesses: number | null
 }
 
 export type Bot = {

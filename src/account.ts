@@ -8,9 +8,9 @@ export type Account = {
     state: string
     postcode: string
     country: string
-    oldId?: string
-    unitsHeld?: number
-    totalInvested?: number
+    oldId: string | null
+    unitsHeld: number | null
+    totalInvested: number | null
 }
 
 export type TaxFileNumber = {

@@ -1,0 +1,26 @@
+{
+    "name": "@blockchain-assets/data-types",
+    "version": "1.0.0",
+    "description": "",
+    "types": "dist/index.d.ts",
+    "files": [
+        "/dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepare": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mycoolfin/bca-data-types.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mycoolfin/bca-data-types/issues"
+    },
+    "homepage": "https://github.com/mycoolfin/bca-data-types#readme",
+    "devDependencies": {
+      "typescript": "^4.8.2"
+    }
+}

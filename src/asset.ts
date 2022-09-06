@@ -2,7 +2,7 @@ import { DateTime } from "luxon"
 
 export type Asset = {
     assetName: string
-    assetSymbol: string
+    assetSymbol: string | null
     balance: number | null
     price: number | null
 }
@@ -22,7 +22,7 @@ export type AssetPrice = {
 
 export type AssetSettings = {
     assetName: string
-    assetSymbol: string
+    assetSymbol: string | null
     manualBalance: number | null
     manualPrice: number | null
 }

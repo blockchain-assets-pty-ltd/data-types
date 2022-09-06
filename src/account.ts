@@ -16,5 +16,5 @@ export type Account = {
 export type TaxFileNumber = {
     taxFileNumber: string
     accountId: number
-    clientId: number
+    clientId: number | null
 }

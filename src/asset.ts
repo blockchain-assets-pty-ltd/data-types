@@ -1,5 +1,12 @@
 import { DateTime } from "luxon"
 
+export type Asset = {
+    assetName: string
+    assetSymbol: string
+    balance: number | null
+    price: number | null
+}
+
 export type AssetBalance = {
     assetName: string
     sourceId: string

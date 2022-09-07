@@ -14,6 +14,7 @@ export type Client = {
     firstName: string
     lastName: string | null
     email: string
+    ethereumAddress: string | null
     lastAccessedAt: DateTime | null
     accessesInLast7Days: number | null
     totalAccesses: number | null

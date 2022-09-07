@@ -1,5 +1,6 @@
 export * from "./account"
 export * from "./asset"
+export * from "./fees"
 export * from "./ledgers"
 export * from "./logs"
 export * from "./settings"

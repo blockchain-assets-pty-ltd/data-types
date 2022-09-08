@@ -24,4 +24,5 @@ export type Bot = {
     id: number
     name: string
     ethereumAddress: string
+    readOnly: boolean
 }

@@ -1,4 +1,4 @@
-import { DateTime } from "luxon"
+import type { DateTime } from "luxon"
 import { UnitHoldersRegisterEntry, FeeCapitalisationsEntry } from "./ledgers"
 
 export type VintageData = {

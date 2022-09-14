@@ -25,6 +25,7 @@ export type AssetSettings = {
     assetSymbol: string | null
     manualBalance: number | null
     manualPrice: number | null
+    displayRank: number | null
 }
 
 export type AssetSource = {

@@ -16,7 +16,7 @@ export type AssetBalance = {
 
 export type AssetPrice = {
     assetName: string
-    price: string
+    price: number
     lastUpdatedAt: DateTime
 }
 

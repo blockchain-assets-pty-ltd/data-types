@@ -29,6 +29,6 @@ export type TaxAllocationsEntry = {
 
 export type FundMetricsEntry = {
     date: DateTime
-    unitPrice: number
-    aum: number
+    unitPrice: number | null
+    aum: number | null
 }

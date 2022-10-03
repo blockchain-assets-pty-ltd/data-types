@@ -6,6 +6,7 @@ export type UnitHoldersRegisterEntry = {
     accountId: number
     unitsAcquiredOrRedeemed: number
     unitPrice: number
+    fundsInOrOut: number
 }
 
 export type FeeCapitalisationsEntry = {

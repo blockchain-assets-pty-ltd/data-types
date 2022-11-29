@@ -21,6 +21,7 @@ export type VintageData = {
     valueAtValuationDate: number
 
     accruedManagementFee: number
+    redeemedUnitsManagementFee: number
     payableManagementFee: number
 
     netValueBeforePF: number

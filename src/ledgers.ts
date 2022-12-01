@@ -33,3 +33,10 @@ export type FundMetricsEntry = {
     unitPrice: number | null
     aum: number | null
 }
+
+export type AssetSnapshotsEntry = {
+    date: DateTime
+    assetName: string
+    balance: number
+    price: number
+}
